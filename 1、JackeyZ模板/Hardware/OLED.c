@@ -1339,9 +1339,7 @@ void OLED_DrawArc(uint8_t X, uint8_t Y, uint8_t Radius, int16_t StartAngle, int1
 void OledTask(void)
 {
 	OLED_ShowNum(0,32,mode,2,OLED_8X16);
-
-	OLED_ShowNum(0,32,444,3, OLED_8X16);
-	OLED_ShowNum(0, 32, 888, 3, OLED_8X16);
+    OLED_ShowNum(0, 32, 888, 2, OLED_8X16);
 	OLED_Update();
 }
 
