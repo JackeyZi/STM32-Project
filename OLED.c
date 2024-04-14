@@ -1341,6 +1341,7 @@ void OledTask(void)
 	OLED_ShowNum(0,32,mode,2,OLED_8X16);
 
 	OLED_ShowNum(0,32,444,3, OLED_8X16);
+	OLED_ShowNum(0, 32, 888, 3, OLED_8X16);
 	OLED_Update();
 }
 
