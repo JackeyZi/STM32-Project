@@ -17,6 +17,11 @@
 #include "key.h"
 #include "oled.h"
 
+void adcTask(void)
+{
+	
+}
+
 int main(void)
 {
 	InitSystem();                 // 初始化外设
@@ -28,5 +33,7 @@ int main(void)
 		OledTask();
 		
 		KeyTask();
+		
+		adcTask();
 	}
 }
